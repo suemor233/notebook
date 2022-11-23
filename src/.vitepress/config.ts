@@ -5,9 +5,7 @@ const sidebar = [
   {
     collapsible: true,
     text: 'Vite',
-    items: [
-      { text: '前端模块化的变迁', link: '/vite/module' }
-    ],
+    items: [{ text: '前端模块化的变迁', link: '/vite/module' }],
   },
   {
     collapsible: true,
@@ -18,16 +16,12 @@ const sidebar = [
   {
     collapsible: true,
     text: 'Javascript',
-    items: [
-      { text: '宏任务与微任务', link: '/javascript/MacroAndMicroTask' },
-    ],
+    items: [{ text: '宏任务与微任务', link: '/javascript/MacroAndMicroTask' }],
   },
   {
     collapsible: true,
     text: 'CSS',
-    items: [
-      { text: '重学CSS', link: '/css/relearn' },
-    ],
+    items: [{ text: '重学CSS', link: '/css/relearn' }],
   },
 ]
 
@@ -41,7 +35,6 @@ const config: UserConfig = {
     ['link', { rel: 'icon', href: 'https://y.suemor.com/imagesavatar.jpeg' }],
     ['meta', { property: 'og:title', content: 'suemor notes' }],
   ],
-
 
   themeConfig: {
     logo: '/favicon.png',
