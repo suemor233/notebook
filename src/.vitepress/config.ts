@@ -23,6 +23,14 @@ const sidebar = [
     text: 'CSS',
     items: [{ text: '重学CSS', link: '/css/relearn' }],
   },
+  {
+    collapsible: true,
+    text: 'Island 项目',
+    items: [
+      { text: '搭建 CLI 脚手架、Dev Server ', link: '/island/cli' },
+      { text: '主题组件渲染实现 ', link: '/island/main-render' },
+    ],
+  },
 ]
 
 const config: UserConfig = {
@@ -46,6 +54,7 @@ const config: UserConfig = {
       '/react/': sidebar,
       '/javascript/': sidebar,
       '/css/': sidebar,
+      '/island/': sidebar,
     },
     footer: {
       copyright: `Copyright © 2020-${new Date().getFullYear()} Suemor`,
