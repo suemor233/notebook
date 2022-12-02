@@ -10,7 +10,10 @@ const sidebar = [
   {
     collapsible: true,
     text: 'React',
-    items: [{ text: '渲染优化', link: '/react/render' }],
+    items: [
+      { text: '渲染优化', link: '/react/render' },
+      { text: '搭建一个 react 的组件库', link: '/react/component-library' },
+    ],
   },
 
   {
