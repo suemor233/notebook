@@ -13,6 +13,7 @@ const sidebar = [
     items: [
       { text: '渲染优化', link: '/react/render' },
       { text: '搭建一个 react 的组件库', link: '/react/component-library' },
+      { text: 'react 单元测试', link: '/react/jest-test' }
     ],
   },
 

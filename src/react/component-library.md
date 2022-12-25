@@ -31,7 +31,7 @@ pnpm create vite
 
 > 注：相关 eslint prettier tsconfig 的配置请自行查看末尾 git 仓库，这不是本文的重点。
 
-下面我们对打开 `vite.config.ts`，对打包进行配置（记得先安装下 @types/node ）
+下面我们打开 `vite.config.ts`，对打包进行配置（记得先安装下 @types/node ）
 
 ```javascript
 import { readFileSync } from 'fs'
